@@ -30,7 +30,6 @@ describe('Drip', function() {
 
   it('should have the right settings', function() {
     analytics.compare(Drip, integration('Drip')
-      .assumesPageview()
       .global('_dc')
       .global('_dcq')
       .global('_dcqi')
