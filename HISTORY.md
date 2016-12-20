@@ -1,3 +1,10 @@
+
+2.1.0 / 2016-12-20
+==================
+
+  * Bump analytics.js-integration to ^3.2.0
+  * Remove .assumePageview() flag
+
 2.0.0 / 2016-06-21
 ==================
 
