@@ -1,4 +1,10 @@
 
+2.1.1 / 2017-04-05
+==================
+
+  * replace spaces with underscores for track property names
+  * fix bug with value being sent with floating point
+
 2.1.0 / 2016-12-20
 ==================
 

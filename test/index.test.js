@@ -90,8 +90,13 @@ describe('Drip', function() {
       });
 
       it('should convert and alias revenue', function() {
-        analytics.track('event', { revenue: '$9.99' });
+        analytics.track('event', { revenue: '9.99' });
         analytics.called(window._dcq.push, ['track', 'event', { value: 999 }]);
+      });
+
+      it('should replace spaces with underscores in for property keys', function() {
+        analytics.track('event', { 'ahoy mate': 'howdy' });
+        analytics.called(window._dcq.push, ['track', 'event', { ahoy_mate: 'howdy' }]);
       });
     });
 
