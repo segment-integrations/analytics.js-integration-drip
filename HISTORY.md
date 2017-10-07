@@ -1,4 +1,9 @@
 
+2.1.2 / 2017-10-09
+==================
+
+  * replace spaces with underscores for identify traits as Drip does not support spaces
+
 2.1.1 / 2017-04-05
 ==================
 
