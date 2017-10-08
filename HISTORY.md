@@ -1,4 +1,9 @@
 
+2.2.0 / 2017-10-08
+==================
+
+  * Support mapping subscribing users to default Drip Campaign ID or dynamically via code through `.identify()` calls 
+
 2.1.1 / 2017-04-05
 ==================
 
