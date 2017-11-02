@@ -96,8 +96,8 @@ describe('Drip', function() {
       });
 
       it('should replace spaces with underscores in for property keys', function() {
-        analytics.track('event', { 'ahoy mate': 'howdy' });
-        analytics.called(window._dcq.push, ['track', 'event', { ahoy_mate: 'howdy' }]);
+        analytics.track('event', { 'ahoy mate there': 'howdy' });
+        analytics.called(window._dcq.push, ['track', 'event', { ahoy_mate_there: 'howdy' }]);
       });
     });
 
